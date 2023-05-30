@@ -26,7 +26,7 @@ void matarSoldado(grupo * g, int n){
 	}
 	g->tam -= 1; 
 }
-
+//Programa principal
 int main(){
 	int testes; 
 	int i;
