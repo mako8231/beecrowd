@@ -68,7 +68,7 @@ int main(){
 		//quando terminar, exibir o número de caso de testes e o soldado sobrevivente
 		cout << "Case " << i + 1 << ": " << exercito.vet[0] << endl;
 		//liberar a memória alocada
-		//free(exercito.vet);
+		free(exercito.vet);
     i++;		
 	}
 
